@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2023 The Stdlib Authors.
@@ -16,25 +16,25 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 2.0
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
+
+import { Collection } from '@stdlib/types/object';
 
 /**
-* Create a two-dimensional nested array filled with ones.
+* Returns a two-dimensional nested array filled with ones.
 *
-* @module @stdlib/array-base-ones2d
+* @param shape - array shape
+* @returns output array
 *
 * @example
-* var ones2d = require( '@stdlib/array-base-ones2d' );
-*
 * var out = ones2d( [ 1, 3 ] );
 * // returns [ [ 1.0, 1.0, 1.0 ] ]
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function ones2d( shape: Collection<number> ): Array<Array<number>>;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = ones2d;
