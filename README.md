@@ -41,7 +41,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ones2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ones2d@esm/index.mjs';
+import ones2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ones2d@v0.0.1-esm/index.mjs';
 ```
 
 #### ones2d( shape )
@@ -80,7 +80,7 @@ var out = ones2d( [ 2, 3 ] );
 <script type="module">
 
 import gscal from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-gscal@esm/index.mjs';
-import ones2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ones2d@esm/index.mjs';
+import ones2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ones2d@v0.0.1-esm/index.mjs';
 
 // Create a ones-filled array:
 var arr = ones2d( [ 5, 10 ] );
