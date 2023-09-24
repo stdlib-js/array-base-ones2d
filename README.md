@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ones2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ones2d@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-ones2d/tags). For example,
+
+```javascript
 import ones2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ones2d@v0.1.0-esm/index.mjs';
 ```
 
@@ -91,7 +96,7 @@ var out = ones2d( [ 2, 3 ] );
 <script type="module">
 
 import gscal from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-gscal@esm/index.mjs';
-import ones2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ones2d@v0.1.0-esm/index.mjs';
+import ones2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ones2d@esm/index.mjs';
 
 // Create a ones-filled array:
 var arr = ones2d( [ 5, 10 ] );
