@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ones2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ones2d@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-ones2d/tags). For example,
+
+```javascript
 import ones2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ones2d@v0.1.0-deno/mod.js';
 ```
 
@@ -86,7 +91,7 @@ var out = ones2d( [ 2, 3 ] );
 
 ```javascript
 import gscal from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-gscal@deno/mod.js';
-import ones2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ones2d@v0.1.0-deno/mod.js';
+import ones2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ones2d@deno/mod.js';
 
 // Create a ones-filled array:
 var arr = ones2d( [ 5, 10 ] );
