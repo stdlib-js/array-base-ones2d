@@ -54,6 +54,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+ones2d = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ones2d@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-ones2d/tags). For example,
+
+```javascript
 ones2d = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ones2d@v0.2.3-umd/browser.js' )
 ```
 
@@ -66,7 +71,7 @@ var ones2d = require( 'path/to/vendor/umd/array-base-ones2d/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ones2d@v0.2.3-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ones2d@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -113,7 +118,7 @@ var out = ones2d( [ 2, 3 ] );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-gscal@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ones2d@v0.2.3-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ones2d@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
